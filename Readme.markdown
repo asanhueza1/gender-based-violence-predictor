@@ -354,9 +354,7 @@ violence.
 > **Table 2: Incidence**
 
 |               |   **Doesn't Suffer Violence** |  **Suffers Violence** |
-
 |---------------| ----------------------------- | ----------------------|
-
 |  **Cluster 1**|  0.602                        |   0.597               |
 |  **Cluster 2**|  0.398                        |   0.4026              |
 

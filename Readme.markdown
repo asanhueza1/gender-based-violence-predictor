@@ -370,13 +370,11 @@ recall.
 
 > **Table 3: Summary scoring metrics**
 
-  **Model**           **Recall**   **Precision**   **Accuracy**
-
-------------------- ------------ --------------- --------------
-
-  **Logistic**        0.45         0.52            0.62
-  **Tree**            0.60         0.46            0.57
-  **Random Forest**   0.56         0.50            0.61
+|  **Model**        |   **Recall** |  **Precision** |   **Accuracy**|
+------------------- |------------- |--------------- |-------------- |
+|  **Logistic**     |   0.45       |  0.52          |  0.62         |
+|  **Tree**         |   0.60       |  0.46          |  0.57         |
+|  **Random Forest**|   0.56       |  0.50          |  0.61         |
 
 From the results, we observed that the Recall runs between 44 and 55%,
 Precision runs between 43 and 53%, and Accuracy runs between 57 and 62%.
@@ -424,13 +422,11 @@ the time when using a logistic regression.
 
 > **Table 4: Model performance: Bootstrapped simulations**
 
-  **Model**           **Average error**   **Lower bound (95% CI)**   **Upper bound (95% CI)**
-
-------------------- ------------------- -------------------------- --------------------------
-
-  **Logistic**        -5.15               -12.21                     1.80
-  **Tree**            -9.99               -16.96                     -3.22
-  **Random Forest**   -10.22              -16.96                     -3.13
+|  **Model**        |   **Average error**|   **Lower bound (95% CI)**|   **Upper bound (95% CI)**|
+|-------------------| -------------------| --------------------------| --------------------------|
+|  **Logistic**     |   -5.15            |   -12.21                  |   1.80                    |
+|  **Tree**         |   -9.99            |   -16.96                  |   -3.22                   |
+|  **Random Forest**|   -10.22           |   -16.96                  |   -3.13                   |
 
 The feature importance of the logistic model in [[Figure
 6]{.ul}](#h2cc7ig3rv34) are similar to those of the Random Forest. In
